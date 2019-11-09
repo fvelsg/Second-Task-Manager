@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To do's List</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>To do's<br />list</h1>
+    </header>
+    <div>
+      <input type="text" placeholder="To do here" /><button id="add">
+        Adicionar
+      </button>
+      <br /><br />
+      <ul id="list"></ul>
+      <br /><br />
+      <ul id="del"></ul><section id="tee">
+      Limpar:
+      <button onclick="limpar(3)" id="deleteTudo">Tudo</button>
+      <button onclick="limpar(2)" id="deleteFeitos">Já Feitos</button>
+      <button onclick="limpar(1)" id="deleteNaoFeitos">Não Feitos</button>
+      <button onclick="undo()" id="undo">Undo</button>
+      <button onclick="zerarUndo()">Zerar Undo</button>
+    </section>
+      <br>
+      <section id="tes"><button onclick="limparTudo()" id="zerar">ZERAR Tudo</button>
+      </section>      
+    </div>
+    <section id="data" class="jooj">
+    </section> 
+    <br><button id="data1" class="jooj">salvar dia</button>
+    <button id="esconde">zerar dados de data</button>
+    <footer><div id="teste"></div></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

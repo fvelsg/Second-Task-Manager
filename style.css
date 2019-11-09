@@ -1,0 +1,125 @@
+body {
+    background: rgb(71, 71, 150);
+    font: normal 15pt Arial;
+  }
+  header {
+    color: white;
+    text-align: center;
+  }
+  div {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+  }
+  ul {
+    margin: auto;
+  }
+  #add {
+    position: relative;
+    left: 5%;
+  }
+  input {
+    width: 400px;
+  }
+  input:hover {
+    background: rgba(191, 191, 224, 0.246);
+  }
+  #delete {
+    background-color: rgb(164, 165, 229);
+    color: white;
+  }
+  #delete:hover {
+    background-color: rgb(61, 141, 187);
+  }
+  #rest {
+    background: rgb(183, 223, 209);
+  }
+  #rest:hover {
+    background-color: rgb(243, 210, 210);
+  }
+  #del li{
+    color: rgba(0, 0, 0, 0.507);
+     text-decoration: line-through;
+     font-stretch: narrower;
+  }
+  #del li:hover{
+    color: rgb(183, 223, 209) ;
+  }
+  section{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    margin:auto;
+  }
+
+  #tes{
+    position: relative;
+    top: 100px;
+  }
+
+  .jooj{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: rgba(255, 255, 255, 0.822);
+    font: bold 16pt Arial;
+  }
+
+  #data1{
+    background-color: transparent;
+    color: transparent;
+    position: absolute;
+    top: 80px;
+    background-color: rgba(0, 0, 0, 0.349);
+    font: bold 10pt Arial;
+  }
+  #data1:hover {
+    background-color: unset;
+    color: white;
+  }
+
+  #esconde {
+    position: absolute;
+    bottom: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    border-radius:5%;
+    width: 50px;
+    height: 50px;
+  }
+  #esconde:hover{
+    background-color: rgb(238, 70, 70);
+    color:rgb(0, 0, 0) ;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    font: bold 10pt Arial;
+  }
+  footer{
+    text-align: center;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+position: relative;
+    left: 1500px;
+    top: 400px;
+    background-color: rgb(0, 128, 128);
+    box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.61);
+  }
+  #teste{
+    text-align: center;
+    border-radius: 10%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: rgb(139, 180, 180);
+    box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.61);
+  }
+  footer:hover{
+    background-color: rgb(95, 95, 218);
+  }
